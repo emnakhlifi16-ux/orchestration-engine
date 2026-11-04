@@ -1,0 +1,246 @@
+{
+  "mesures": 8,
+  "tempo": 72,
+  "mesure": "4/4",
+  "tonalite": "C",
+  "structure": [
+    {
+      "section": "intro",
+      "measures": [
+        1,
+        2
+      ],
+      "roles_by_measure": {
+        "2": {
+          "Alto": "sustained"
+        }
+      }
+    },
+    {
+      "section": "couplet",
+      "measures": [
+        3,
+        4
+      ]
+    },
+    {
+      "section": "pré-refrain",
+      "measures": [
+        5
+      ]
+    },
+    {
+      "section": "refrain",
+      "measures": [
+        6,
+        7
+      ]
+    },
+    {
+      "section": "final",
+      "measures": [
+        8
+      ],
+      "dynamic": "ff"
+    }
+  ],
+  "accords": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Dm",
+    "C",
+    "G",
+    "C"
+  ],
+  "parties": [
+    {
+      "nom": "Mélodie principale",
+      "effectif": 1,
+      "role": "mélodie importée"
+    },
+    {
+      "nom": "Violon I",
+      "effectif": 4,
+      "role_par_section": {
+        "silence": [
+          1,
+          2
+        ],
+        "main melody": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "famille": "cordes",
+      "style": "cinématographique"
+    },
+    {
+      "nom": "Violon II",
+      "effectif": 4,
+      "role_par_section": {
+        "silence": [
+          1,
+          2
+        ],
+        "rhythmic accompaniment": [
+          3,
+          4
+        ],
+        "arpeggio": [
+          5
+        ],
+        "harmony": [
+          6,
+          7,
+          8
+        ]
+      },
+      "famille": "cordes",
+      "style": "cinématographique"
+    },
+    {
+      "nom": "Alto",
+      "effectif": 2,
+      "role_par_section": {
+        "silence": [
+          1
+        ],
+        "sustained": [
+          2,
+          3,
+          4
+        ],
+        "rhythmic accompaniment": [
+          5
+        ],
+        "harmony": [
+          6,
+          7,
+          8
+        ]
+      },
+      "famille": "cordes",
+      "style": "cinématographique"
+    },
+    {
+      "nom": "Violoncelle",
+      "effectif": 2,
+      "role_par_section": {
+        "solo": [
+          1,
+          2
+        ],
+        "bass foundation": [
+          3,
+          4
+        ],
+        "arpeggio": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "famille": "cordes",
+      "style": "cinématographique"
+    },
+    {
+      "nom": "Contrebasse",
+      "effectif": 1,
+      "role_par_section": {
+        "silence": [
+          1,
+          2
+        ],
+        "bass foundation": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "famille": "cordes",
+      "style": "cinématographique"
+    },
+    {
+      "nom": "Flûte 1",
+      "effectif": 1,
+      "role": "answer",
+      "partie_musicale": "Flûte 1"
+    },
+    {
+      "nom": "Flûte 2",
+      "effectif": 1,
+      "role": "answer",
+      "partie_musicale": "Flûte 2"
+    },
+    {
+      "nom": "Hautbois",
+      "effectif": 1,
+      "role": "answer",
+      "partie_musicale": "Hautbois"
+    },
+    {
+      "nom": "Clarinette en Sib",
+      "effectif": 1,
+      "role": "pad",
+      "partie_musicale": "Clarinette en Sib"
+    },
+    {
+      "nom": "Trompette en Sib",
+      "effectif": 1,
+      "role": "accent",
+      "partie_musicale": "Trompette en Sib"
+    },
+    {
+      "nom": "Batterie",
+      "effectif": 1,
+      "role": "rest",
+      "partie_musicale": "Batterie"
+    },
+    {
+      "nom": "Basse électrique",
+      "effectif": 1,
+      "role": "bass",
+      "partie_musicale": "Basse électrique"
+    },
+    {
+      "nom": "Derbouka",
+      "effectif": 1,
+      "role": "rest",
+      "partie_musicale": "Derbouka"
+    },
+    {
+      "nom": "Soprano",
+      "effectif": 1,
+      "role": "voice",
+      "partie_musicale": "Soprano"
+    },
+    {
+      "nom": "Alto choral",
+      "effectif": 1,
+      "role": "voice",
+      "partie_musicale": "Alto choral"
+    },
+    {
+      "nom": "Ténor",
+      "effectif": 1,
+      "role": "voice",
+      "partie_musicale": "Ténor"
+    },
+    {
+      "nom": "Basse chorale",
+      "effectif": 1,
+      "role": "voice",
+      "partie_musicale": "Basse chorale"
+    }
+  ]
+}

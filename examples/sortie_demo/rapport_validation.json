@@ -1,0 +1,74 @@
+{
+  "status": "issues",
+  "critical_count": 0,
+  "warning_count": 12,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "outside_comfortable_range",
+      "message": "E3 hors tessiture confortable de Alto"
+    },
+    {
+      "severity": "warning",
+      "code": "outside_comfortable_range",
+      "message": "E2 hors tessiture confortable de Violoncelle"
+    },
+    {
+      "severity": "warning",
+      "code": "non_chord_tone",
+      "message": "G3 n'appartient pas à l'accord de la mesure 1 (Violoncelle)"
+    },
+    {
+      "severity": "warning",
+      "code": "non_chord_tone",
+      "message": "E4 n'appartient pas à l'accord de la mesure 2 (Violoncelle)"
+    },
+    {
+      "severity": "warning",
+      "code": "outside_comfortable_range",
+      "message": "F4 hors tessiture confortable de Flûte 1"
+    },
+    {
+      "severity": "warning",
+      "code": "outside_comfortable_range",
+      "message": "D4 hors tessiture confortable de Flûte 1"
+    },
+    {
+      "severity": "warning",
+      "code": "outside_comfortable_range",
+      "message": "E4 hors tessiture confortable de Flûte 1"
+    },
+    {
+      "severity": "warning",
+      "code": "outside_comfortable_range",
+      "message": "E4 hors tessiture confortable de Flûte 1"
+    },
+    {
+      "severity": "warning",
+      "code": "outside_comfortable_range",
+      "message": "F4 hors tessiture confortable de Ténor"
+    },
+    {
+      "severity": "warning",
+      "code": "outside_comfortable_range",
+      "message": "F4 hors tessiture confortable de Ténor"
+    },
+    {
+      "severity": "warning",
+      "code": "concert_pitch_parts",
+      "message": "Les exports restent en sons réels; la notation transposée n'est pas encore produite pour: Contrebasse, Clarinette en Sib, Trompette en Sib, Basse électrique"
+    },
+    {
+      "severity": "warning",
+      "code": "midi_channel_capacity",
+      "message": "La partition contient 18 parties; le format MIDI standard limite les canaux à 16. Les fichiers MIDI individuels restent séparés."
+    }
+  ],
+  "checks": [
+    "parties attendues",
+    "tessitures confortables et extrêmes",
+    "mesures vides",
+    "notes étrangères aux accords",
+    "transposition concert pitch explicitée"
+  ]
+}

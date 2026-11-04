@@ -1,0 +1,15 @@
+{
+  "melody": "examples/melodie_demo.musicxml",
+  "chords": ["Am", "F", "C", "G", "Dm", "C", "G", "C"],
+  "tempo": 72,
+  "meter": "4/4",
+  "key": "C",
+  "style": "cinématographique",
+  "structure": [
+    {"section": "intro", "measures": [1, 2], "roles_by_measure": {"2": {"Alto": "sustained"}}},
+    {"section": "couplet", "measures": [3, 4]},
+    {"section": "pré-refrain", "measures": [5]},
+    {"section": "refrain", "measures": [6, 7]},
+    {"section": "final", "measures": [8], "dynamic": "ff"}
+  ]
+}

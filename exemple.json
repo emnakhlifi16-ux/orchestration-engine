@@ -1,0 +1,14 @@
+{
+  "melody": "examples/melodie_demo.musicxml",
+  "chords": ["Am", "F", "C", "G", "Dm", "C", "G", "C"],
+  "tempo": 72,
+  "meter": "4/4",
+  "key": "C",
+  "structure": [
+    {"section": "intro", "measures": [1, 2]},
+    {"section": "verse", "measures": [3, 4]},
+    {"section": "prechorus", "measures": [5]},
+    {"section": "chorus", "measures": [6, 7]},
+    {"section": "final", "measures": [8]}
+  ]
+}

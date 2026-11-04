@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orchestre-assiste"
+version = "0.1.0"
+description = "Prototype explicite d'orchestration musicale avec music21"
+requires-python = ">=3.10"
+dependencies = ["music21>=9.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+orchestre = "orchestre.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["orchestre*"]
